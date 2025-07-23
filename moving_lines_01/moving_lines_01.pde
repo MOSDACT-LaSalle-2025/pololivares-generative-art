@@ -4,7 +4,7 @@ PGraphics pg;
 float t;
 
 void setup() {
-  size(1920, 1080,P2D);
+  size(1920, 1080,P2D  );
   halfh = height / 2;
   w = float(width);
   rndclrs();
@@ -20,8 +20,8 @@ void draw() {
 
 
   pg.beginDraw();
-  pg.background(0, 0, 0, 0);
-  //pg.clear();
+  //pg.background(0, 0, 0, 0);
+  pg.clear();
   pg.stroke(250);
   pg.strokeWeight(2);
 
